@@ -14,15 +14,18 @@
 * [Smartbox](https://github.com/immosmart/smartbox) - SmartTV universal library for Samsung, LG, Philips, SmartTV Aliance, STB Mag app development.
 
 ## SDK
-* [Samsung Smart TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) - for Samsung apps.
+* [Samsung Smart TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) - for Samsung Smart TV.
+* [LG webOS TV SDK](http://developer.lge.com/webOSTV/sdk/web-sdk) - for LG webOS TV.
 * [Smart TV Alliance SDK](https://developers.smarttv-alliance.org) - common SDK for LG, Philips, Toshiba and Panasonic.
 
 ## Tutorials
 * [Getting Started with a Samsung Smart TV](http://www.samsung.com/global/article/articleDetailView.do?atcl_id=61689)
+* [Build Your First App for webOS TV](http://developer.lge.com/webOSTV/develop/web-app/getting-started/building-your-first-web-app-webos-tv/)
 
 ## Articles
 * [Smart TV Wikipedia](https://en.wikipedia.org/wiki/Smart_TV) - Smart TV overview article.
 * [Google TV](https://en.wikipedia.org/wiki/Google_TV) - Smart TV platform from Google. 
+* [About Smart TV](https://www.yourappontv.com/about-smart-tv) 
 
 ## Videos
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - operate TV like a computer mouse.
@@ -31,6 +34,7 @@
 * [Reddit](https://www.reddit.com/r/smarttv)
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
+* [Samsung Smart TV Apps Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
 * [Smart TV Alliance Forum](https://developers.smarttv-alliance.org/forum/index.php)
 
 ## Contribute
