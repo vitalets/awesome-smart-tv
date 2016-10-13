@@ -34,7 +34,7 @@
 * [Reddit](https://www.reddit.com/r/smarttv)
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
-* [Samsung Smart TV Apps Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
+* [LG Smart TV Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
 * [Smart TV Alliance Forum](https://developers.smarttv-alliance.org/forum/index.php)
 
 ## Contribute
