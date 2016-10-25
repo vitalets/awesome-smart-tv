@@ -28,6 +28,9 @@
 * [Google TV](https://en.wikipedia.org/wiki/Google_TV) - Smart TV platform from Google. 
 * [About Smart TV](https://www.yourappontv.com/about-smart-tv) 
 
+## Examples
+* [Samsung Tizen TV Apps](https://github.com/Samsung/TizenTVApps)
+
 ## Videos
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - operate TV like a computer mouse.
 
