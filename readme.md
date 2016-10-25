@@ -15,6 +15,7 @@
 
 ## SDK
 * [Samsung Smart TV SDK](https://www.samsungdforum.com/Devtools/SdkDownload) - for Samsung Smart TV.
+* [Samsung Tizen TV developers portal](https://developer.tizen.org) - SDK, IDE, tutorials for Samsung Tizen TV developers.
 * [LG webOS TV SDK](http://developer.lge.com/webOSTV/sdk/web-sdk) - for LG webOS TV.
 * [Smart TV Alliance SDK](https://developers.smarttv-alliance.org) - common SDK for LG, Philips, Toshiba and Panasonic.
 
