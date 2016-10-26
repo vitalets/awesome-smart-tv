@@ -52,7 +52,7 @@
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
 * [LG Smart TV Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
-* [Smart TV Alliance Forum](https://developers.smarttv-alliance.org/forum/index.php)
+* [Smart TV Alliance Forum](https://developers.smarttv-alliance.org/forum/index.php) (looks abandoned)
 
 ## Contribute
 Feel free to share your experience and contribute useful extension resources by creating [new issue](issues/new) or [pull request](compare).
