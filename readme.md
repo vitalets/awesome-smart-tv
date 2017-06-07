@@ -4,12 +4,12 @@
 
 ## Contents
 * [Platforms](#platforms)
-  * [Samsung Tizen OS for TV](#vendors)
-  * [LG webOS Smart TV](#vendors)
+  * [Samsung Tizen](#samsung-tizen)
+  * [LG webOS](#lg-webos)
   * Google Android TV
 * [Frameworks](#frameworks)
 * [Tutorials](#tutorials)
-* [Communication protocols](#communicationprotocols)
+* [Communication protocols](#communication-protocols)
 * [Articles](#articles)
 * [Videos](#articles) 
 * [Community](#community)
@@ -17,12 +17,12 @@
 ## Platforms
 There are several platforms for Smart TV apps. Full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
 
-### Samsung Tizen OS for TV
+### Samsung Tizen
 * [Developers site](https://developer.tizen.org/tizen/tv) - development principle, tutorials, API documentation and packaging tools for Tizen TV apps.
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - IDE for apps development including a Command Line Interface and emulator.
 * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - communication with mobile devices.
 
-### LG webOS Smart TV
+### LG webOS
 * [Developers site](http://webostv.developer.lge.com) - development principle, tutorials, API documentation and packaging tools for webOS TV apps.
 * [webOS TV SDK](http://webostv.developer.lge.com/sdk/download/download-sdk/) - IDE + Tizen TV Emulator.
 * [Connect SDK](http://www.svlconnectsdk.com/) - open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
