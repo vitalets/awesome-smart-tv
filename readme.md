@@ -45,7 +45,7 @@ There are several platforms for SmartTV apps. Full list is [here](https://en.wik
 * [Miracast](https://en.wikipedia.org/wiki/Miracast) - a standard for wireless connections from devices (such as laptops, tablets, or smartphones) to displays (such as TVs, monitors or projectors). Works over Wi-Fi Direct.
 
 ## Articles
-* [What is DLNA?](http://www.which.co.uk/reviews/televisions/article/what-is-dlna) - 
+* [What is DLNA?](http://www.which.co.uk/reviews/televisions/article/what-is-dlna)
 * [Use DIAL to Cast Netflix and YouTube Without a Chromecast](http://www.howtogeek.com/215791/use-your-tv’s-hidden-“dial”-feature-to-cast-netflix-and-youtube-without-a-chromecast/)
 
 ## Videos
