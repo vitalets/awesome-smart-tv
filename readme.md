@@ -9,8 +9,7 @@
   * Google Android TV
 * [Frameworks](#frameworks)
 * [Tutorials](#tutorials)
-* [Remote control](#remotecontrol)
-* [Discovery](#standards)
+* [Communication protocols](#communicationprotocols)
 * [Articles](#articles)
 * [Videos](#articles) 
 * [Community](#community)
