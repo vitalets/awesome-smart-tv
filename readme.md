@@ -16,7 +16,7 @@
 * [Community](#community)
 
 ## Platforms
-There are several platforms for SmartTV apps. Full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
+There are several platforms for Smart TV apps. Full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
 
 ### Samsung Tizen OS for TV
 * [Developers site](https://developer.tizen.org/tizen/tv) - development principle, tutorials, API documentation and packaging tools for Tizen TV apps.
@@ -56,7 +56,6 @@ There are several platforms for SmartTV apps. Full list is [here](https://en.wik
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
 * [LG Smart TV Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
-* [Smart TV Alliance Forum](https://developers.smarttv-alliance.org/forum/index.php) (looks abandoned)
 
 ## Contribute
 Feel free to share your experience and contribute useful extension resources by creating [new issue](issues/new) or [pull request](compare).
