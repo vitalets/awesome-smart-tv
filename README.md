@@ -6,8 +6,9 @@
 * [Platforms](#platforms)
   * [Samsung Tizen](#samsung-tizen)
   * [LG webOS](#lg-webos)
-  * Google Android TV
-  * Apple TV
+  * [Android TV](#android-tv)
+  * Apple TV (todo)
+  * [Chromecast](#chromecast)
 * [Frameworks](#frameworks)
 * [Tutorials](#tutorials)
 * [Communication protocols](#communication-protocols)
@@ -36,6 +37,13 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
   * [node-webos](https://github.com/WeeJeWel/node-webos) - webOS remote for LG TVs (JavaScript).
   * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
   * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line webOS remote for LGTVs (Python).
+
+## Android TV
+* [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Getting Started with TV Apps.
+
+## Chromecast
+* [Google Cast SDK](https://developers.google.com/cast/) - Get Started with Google Cast SDK.
+* [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/)
 
 ## Frameworks
 * [TOAST](http://developer.samsung.com/tv/develop/extension-libraries/toast/) - Samsung open-source framework for multi-platform TV apps developemnt.
