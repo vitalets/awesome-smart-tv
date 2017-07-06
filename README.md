@@ -73,10 +73,10 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - operate TV like a computer mouse.
 
 ## Community
-* [Reddit](https://www.reddit.com/r/smarttv)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
 * [LG Smart TV Developer Forum](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV)
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
+* [Reddit](https://www.reddit.com/r/smarttv)
 
 ## Contribute
 Feel free to share your experience and contribute useful extension resources by creating [new issue](issues/new) or [pull request](compare).
