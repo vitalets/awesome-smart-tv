@@ -25,6 +25,7 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Android, IOS and JavaScript SDK for communication between TV and mobile device.
 * Third-party libraries:
   * [samsungctl](https://github.com/Ape/samsungctl) - Remote control Samsung televisions via a TCP/IP connection (Python).
+  * [samsung-tv-remote](https://github.com/Badisi/samsung-tv-remote) - NodeJS module to remotely control Samsung SmartTV starting from 2016 (JavaScript).
   * [homebridge-samsungtv2016](https://github.com/kyleaa/homebridge-samsungtv2016) - This allows you to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
 
 ### LG webOS
