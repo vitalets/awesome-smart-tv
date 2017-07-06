@@ -69,7 +69,7 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 
 ## Contribute
 Feel free to share your experience and contribute useful extension resources by creating [new issue](issues/new) or [pull request](compare).
-Please read the [contribution guidelines](contributing.md) first. Thanks!
+Please read the [contribution guidelines](CONTRIBUTING.md) first. Thanks!
 
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
