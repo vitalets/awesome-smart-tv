@@ -41,10 +41,10 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
   * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
   * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line webOS remote for LGTVs (Python).
 
-## Android TV
+### Android TV
 * [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Getting Started with TV Apps.
 
-## Chromecast
+### Chromecast
 * [Google Cast SDK](https://developers.google.com/cast/) - Get Started with Google Cast SDK.
 * [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/)
 
