@@ -22,8 +22,8 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 ### Samsung Tizen
 * [Tizen Developers site](https://developer.tizen.org/tizen/tv) - apps development principles, tutorials, API documentation and packaging tools for Tizen TV apps.
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - IDE for apps development and Tizen TV Emulator.
-* [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Android, IOS and JavaScript SDK for communication between TV and mobile device.
 * Remote control libraries:
+  * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Android, IOS and JavaScript SDK for communication between TV and mobile device.
   * [samsungctl](https://github.com/Ape/samsungctl) - Remote control Samsung televisions via a TCP/IP connection (Python).
   * [samsung-tv-remote](https://github.com/Badisi/samsung-tv-remote) - NodeJS module to remotely control Samsung SmartTV starting from 2016 (JavaScript).
   * [homebridge-samsungtv2016](https://github.com/kyleaa/homebridge-samsungtv2016) - This allows you to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
@@ -31,8 +31,8 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 ### LG webOS
 * [Developers site](http://webostv.developer.lge.com) - development principle, tutorials, API documentation and packaging tools for webOS TV apps.
 * [webOS TV SDK](http://webostv.developer.lge.com/sdk/download/download-sdk/) - IDE for apps development including a Command Line Interface and emulator.
-* [Connect SDK](http://www.svlconnectsdk.com/) - open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
 * Remote control libraries:
+  * [Connect SDK](http://www.svlconnectsdk.com/) - open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
   * [lgtv2](https://github.com/hobbyquaker/lgtv2) - Control LG WebOS TV using node.js (JavaScript).
   * [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Node-RED Nodes to control LG webOS Smart TVs (JavaScript).
   * [node-webos](https://github.com/WeeJeWel/node-webos) - webOS remote for LG TVs (JavaScript).
