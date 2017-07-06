@@ -7,6 +7,7 @@
   * [Samsung Tizen](#samsung-tizen)
   * [LG webOS](#lg-webos)
   * Google Android TV
+  * Apple TV
 * [Frameworks](#frameworks)
 * [Tutorials](#tutorials)
 * [Communication protocols](#communication-protocols)
@@ -18,14 +19,23 @@
 There are several platforms for Smart TV apps. Full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
 
 ### Samsung Tizen
-* [Developers site](https://developer.tizen.org/tizen/tv) - apps development principles, tutorials, API documentation and packaging tools for Tizen TV apps.
+* [Tizen Developers site](https://developer.tizen.org/tizen/tv) - apps development principles, tutorials, API documentation and packaging tools for Tizen TV apps.
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - IDE for apps development and Tizen TV Emulator.
 * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Android, IOS and JavaScript SDK for communication between TV and mobile device.
+* Third-party libraries:
+  * [samsungctl](https://github.com/Ape/samsungctl) - Remote control Samsung televisions via a TCP/IP connection (Python).
+  * [homebridge-samsungtv2016](https://github.com/kyleaa/homebridge-samsungtv2016) - This allows you to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
 
 ### LG webOS
 * [Developers site](http://webostv.developer.lge.com) - development principle, tutorials, API documentation and packaging tools for webOS TV apps.
 * [webOS TV SDK](http://webostv.developer.lge.com/sdk/download/download-sdk/) - IDE for apps development including a Command Line Interface and emulator.
 * [Connect SDK](http://www.svlconnectsdk.com/) - open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
+* Third-party libraries:
+  * [lgtv2](https://github.com/hobbyquaker/lgtv2) - Control LG WebOS TV using node.js (JavaScript).
+  * [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Node-RED Nodes to control LG webOS Smart TVs (JavaScript).
+  * [node-webos](https://github.com/WeeJeWel/node-webos) - webOS remote for LG TVs (JavaScript).
+  * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
+  * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line webOS remote for LGTVs (Python).
 
 ## Frameworks
 * [TOAST](http://developer.samsung.com/tv/develop/extension-libraries/toast/) - Samsung open-source framework for multi-platform TV apps developemnt.
@@ -46,6 +56,7 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 ## Articles
 * [What is DLNA?](http://www.which.co.uk/reviews/televisions/article/what-is-dlna)
 * [Use DIAL to Cast Netflix and YouTube Without a Chromecast](http://www.howtogeek.com/215791/use-your-tv’s-hidden-“dial”-feature-to-cast-netflix-and-youtube-without-a-chromecast/)
+* [LG WebOS communication](https://mym.hackpad.com/ep/pad/static/rLlshKkzdNj) - unofficial description of communication with webOS TV.
 
 ## Videos
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - operate TV like a computer mouse.
