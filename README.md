@@ -1,8 +1,10 @@
-<p align="center"><a href="https://github.com/vitalets/awesome-smart-tv"><img src="https://user-images.githubusercontent.com/1473072/27913047-7c3a5e60-6267-11e7-8bd1-bef2bf3cd753.png"/></a></p>
-
 # Awesome Smart TV [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome resources for building [Smart TV](https://en.wikipedia.org/wiki/Smart_TV) apps
+
+<a href="https://github.com/vitalets/awesome-smart-tv"><img align="right" width="150" src="https://user-images.githubusercontent.com/1473072/27913047-7c3a5e60-6267-11e7-8bd1-bef2bf3cd753.png"/></a>
+
+[Smart TV](https://en.wikipedia.org/wiki/Smart_TV) is a growing platform of TVs having access to internet and allowing to serf web-sites and install applications. It has own ecosystem with main players like Samsung, LG, Android TV and Apple TV. In this list you will find official and third-party resources for developing Smart TV apps and communicating with TV from remote devices.
 
 ## Contents
 * [Platforms](#platforms)
@@ -19,23 +21,23 @@
 * [Community](#community)
 
 ## Platforms
-There are several platforms for Smart TV apps. Full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
+Below are the most popular platforms for Smart TV. The full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
 
 ### Samsung Tizen
-* [Tizen Developers site](https://developer.tizen.org/tizen/tv) - apps development principles, tutorials, API documentation and packaging tools for Tizen TV apps.
+* [Tizen Developers site](https://developer.tizen.org/tizen/tv) - Apps development principles, tutorials, API documentation and packaging tools for Tizen TV apps.
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - IDE for apps development and Tizen TV Emulator.
 * Remote control libraries:
-  * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Android, IOS and JavaScript SDK for communication between TV and mobile device.
+  * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Oficcial Android, IOS and JavaScript SDK for communication between Samsung TV and mobile device.
   * [samsungctl](https://github.com/Ape/samsungctl) - Remote control Samsung televisions via a TCP/IP connection (Python).
-  * [samsung-tv-remote](https://github.com/Badisi/samsung-tv-remote) - NodeJS module to remotely control Samsung SmartTV starting from 2016 (JavaScript).
+  * [samsung-tv-remote](https://github.com/Badisi/samsung-tv-remote) - Node.js module to remotely control Samsung Smart TV starting from 2016 (JavaScript).
   * [homebridge-samsungtv2016](https://github.com/kyleaa/homebridge-samsungtv2016) - This allows you to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
 
 ### LG webOS
-* [Developers site](http://webostv.developer.lge.com) - development principle, tutorials, API documentation and packaging tools for webOS TV apps.
+* [Developers site](http://webostv.developer.lge.com) - Development principle, tutorials, API documentation and packaging tools for webOS TV apps.
 * [webOS TV SDK](http://webostv.developer.lge.com/sdk/download/download-sdk/) - IDE for apps development including a Command Line Interface and emulator.
 * Remote control libraries:
-  * [Connect SDK](http://www.svlconnectsdk.com/) - open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
-  * [lgtv2](https://github.com/hobbyquaker/lgtv2) - Control LG WebOS TV using node.js (JavaScript).
+  * [Connect SDK](http://www.svlconnectsdk.com/) - Open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
+  * [lgtv2](https://github.com/hobbyquaker/lgtv2) - Control LG WebOS TV using Node.js (JavaScript).
   * [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Node-RED Nodes to control LG webOS Smart TVs (JavaScript).
   * [node-webos](https://github.com/WeeJeWel/node-webos) - webOS remote for LG TVs (JavaScript).
   * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
@@ -45,13 +47,13 @@ There are several platforms for Smart TV apps. Full list is [here](https://en.wi
 * [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Getting Started with TV Apps.
 
 ### Chromecast
-* [Google Cast SDK](https://developers.google.com/cast/) - Get Started with Google Cast SDK.
-* [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/)
+* [Google Cast SDK](https://developers.google.com/cast/) - Oficcial Google Cast SDK documentation and tutorials.
+* [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/) - List of vendors supporting built-in Chromecast and advantages over traditional TV remote controller.
 
 ## Frameworks
 * [TOAST](http://developer.samsung.com/tv/develop/extension-libraries/toast/) - Samsung open-source framework for multi-platform TV apps developemnt.
 * [Enyo](http://enyojs.com) - LG framework for development apps for all major platforms, from phones and tablets to PCs and TVs.
-* [Smartbox](https://github.com/immosmart/smartbox) - SmartTV universal library for Samsung, LG, Philips, SmartTV Aliance, STB Mag app development.
+* [Smartbox](https://github.com/immosmart/smartbox) - Smart TV universal library for Samsung, LG, Philips, SmartTV Aliance, STB Mag app development.
 
 ## Tutorials
 * [Creating a Samsung Tizen TV Web App](https://www.samsungdforum.com/TizenGuide/tizen1221/index.html)
