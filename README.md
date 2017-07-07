@@ -38,16 +38,16 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * Remote control libraries:
   * [Connect SDK](http://www.svlconnectsdk.com/) - Open source framework developed by LG that connects your mobile apps with multiple media device platforms. Currently supports 8 platforms. Looks [abandoned](https://github.com/ConnectSDK/Connect-SDK-Android/issues/364).
   * [lgtv2](https://github.com/hobbyquaker/lgtv2) - Node.js module for remote control of LG WebOS TV via WebSocket messages (JavaScript).
-  * [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - [Node-RED](https://nodered.org) module for remote control LG webOS Smart TVs (JavaScript).
+  * [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Module for [Node-RED](https://nodered.org) allowing  remote control of LG webOS Smart TVs (JavaScript).
   * [node-webos](https://github.com/WeeJeWel/node-webos) - Node.js module to discover and control webOS TVs (JavaScript).
   * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
   * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line tool for webOS remote control of LG TVs (Python).
 
 ### Android TV
-* [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Getting Started with TV Apps.
+* [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Official documentation, tutorials and best practises for building Android TV apps.
 
 ### Chromecast
-* [Google Cast SDK](https://developers.google.com/cast/) - Oficcial Google Cast SDK documentation and tutorials.
+* [Google Cast SDK](https://developers.google.com/cast/) - Official Google Cast SDK documentation and tutorials.
 * [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/) - List of vendors supporting built-in Chromecast and advantages over traditional TV remote controller.
 
 ## Frameworks
@@ -61,18 +61,18 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [Build Your First App for webOS TV](http://developer.lge.com/webOSTV/develop/web-app/getting-started/building-your-first-web-app-webos-tv/)
 
 ## Communication protocols
-* [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) - industry-wide standard for sharing data over a home network. Depending on the DLNA-compatible devices you own, you might be able to stream films from your laptop to your TV, play an MP3 stored on your phone over your hi-fi system, or print a photo from your tablet on your home printer.
-* [DIAL](http://www.dial-multiscreen.org/) - developed by Netflix and Google, this protocol alows client devices (like smartphone, tablet, or computer) to discover apps on server devices (like a smart TV or streaming box) and launch content on them.
-* [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) - standard enabling devices to easily connect with each other without requiring a wireless access point.
-* [Miracast](https://en.wikipedia.org/wiki/Miracast) - a standard for wireless connections from devices (such as laptops, tablets, or smartphones) to displays (such as TVs, monitors or projectors). Works over Wi-Fi Direct.
+* [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) - Industry-wide standard for sharing data over a home network. Depending on the DLNA-compatible devices you own, you might be able to stream films from your laptop to your TV, play an MP3 stored on your phone over your hi-fi system, or print a photo from your tablet on your home printer.
+* [DIAL](http://www.dial-multiscreen.org/) - Developed by Netflix and Google, this protocol alows client devices (like smartphone, tablet, or computer) to discover apps on server devices (like a smart TV or streaming box) and launch content on them.
+* [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) - Standard enabling devices to easily connect with each other without requiring a wireless access point.
+* [Miracast](https://en.wikipedia.org/wiki/Miracast) - Standard for wireless connections from devices (such as laptops, tablets, or smartphones) to displays (such as TVs, monitors or projectors). Works over Wi-Fi Direct.
 
 ## Articles
 * [What is DLNA?](http://www.which.co.uk/reviews/televisions/article/what-is-dlna)
 * [Use DIAL to Cast Netflix and YouTube Without a Chromecast](http://www.howtogeek.com/215791/use-your-tv’s-hidden-“dial”-feature-to-cast-netflix-and-youtube-without-a-chromecast/)
-* [LG WebOS communication](https://mym.hackpad.com/ep/pad/static/rLlshKkzdNj) - unofficial description of communication with webOS TV.
+* [LG WebOS communication](https://mym.hackpad.com/ep/pad/static/rLlshKkzdNj) - Unofficial but detailed description of communication with webOS TV.
 
 ## Videos
-* [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - operate TV like a computer mouse.
+* [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - Operate TV like a computer mouse.
 
 ## Community
 * [Samsung Smart TV Apps Developer Forum](https://www.samsungdforum.com/)
