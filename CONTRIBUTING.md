@@ -9,7 +9,8 @@ Ensure your pull request adheres to the following guidelines:
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - If you just created something, wait at least a couple of weeks before submitting.
 - Submitted packages should be tested and documented.
-- Put your suggestion to corresponding platform category.
+- Make an individual pull request for each suggestion.
+- If your suggestion is applied only to particular Smart TV platform - please put it to corresponding category.
 - For libraries use the following format: `[package](link) - Description (Programming language).`
 - Additions should be added to the bottom of the relevant section.
 - New categories, or improvements to the existing categorization are welcome.
