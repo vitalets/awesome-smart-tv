@@ -11,7 +11,7 @@
   * [Samsung Tizen](#samsung-tizen)
   * [LG webOS](#lg-webos)
   * [Android TV](#android-tv)
-  * Apple TV (todo)
+  * [Apple tvOS](#apple-tvos)
   * [Chromecast](#chromecast)
 * [Frameworks](#frameworks)
 * [Tutorials](#tutorials)
@@ -45,6 +45,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 
 ### Android TV
 * [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Official documentation, tutorials and best practises for building Android TV apps.
+
+### Apple tvOS
+* [tvOS Developers Site](https://developer.apple.com/tvos/) - Official SDK, documentation and tutorials for writing tvOS apps.
 
 ### Chromecast
 * [Google Cast SDK](https://developers.google.com/cast/) - Official Google Cast SDK documentation and tutorials.
