@@ -78,6 +78,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) - Standard enabling devices to easily connect with each other without requiring a wireless access point.
 * [Miracast](https://en.wikipedia.org/wiki/Miracast) - Standard for wireless connections from devices (such as laptops, tablets, or smartphones) to displays (such as TVs, monitors or projectors). Works over Wi-Fi Direct.
 
+## Related
+* [LIRC](http://lirc.org) - A package that allows you to decode and send infra-red signals of many (but not all) commonly used remote controls.
+
 ## Community
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Reddit](https://www.reddit.com/r/smarttv)
