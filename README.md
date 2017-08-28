@@ -28,6 +28,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - IDE for TV apps development including Tizen TV Emulator.
 * [Samrt View SDK](http://developer.samsung.com/tv/develop/tools/extension-libraries/smart-view-sdk-download) - Oficcial Android, IOS and JavaScript SDK for communication between remote device and Samsung Smart TV.
 * [Samsung TV Developers Forum](http://developer.samsung.com/forum/?topCtgy=06) - Ask questions and share tips when developing apps with Samsung SDKs.
+* [Samsung Smart TV Bug Bounty](https://samsungtvbounty.com) - If you find bug in Samsung TV, submit it here and get a reward $1000+.
 
 #### Third-party remote control libraries
 * [samsungctl](https://github.com/Ape/samsungctl) - Library and command line tool for remote controlling Samsung televisions via a TCP/IP connection. It currently supports both pre-2016 TVs as well most of the modern Tizen-OS TVs with Ethernet or Wi-Fi connectivity (Python).
