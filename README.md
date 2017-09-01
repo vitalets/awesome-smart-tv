@@ -35,6 +35,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [samsung-tv-remote](https://github.com/Badisi/samsung-tv-remote) - Node.js module to remotely control Samsung Smart TV starting from 2016 (JavaScript).
 * [homebridge-samsungtv2016](https://github.com/kyleaa/homebridge-samsungtv2016) - Plugin for [Homebridge](https://github.com/nfarina/homebridge) that allows you to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
 
+#### Other
+* [Identification of Samsung TV models 2008-2017](http://en.tab-tv.com/?page_id=7123) - How to get screen size, matrix type, year of development, series and ohter parameters from Samsung TV model name.
+
 ### LG webOS
 #### Official resources
 * [webOS TV Developers Site](http://webostv.developer.lge.com) - WebOS TV apps development principles, tutorials, API documentation and packaging tools.
@@ -57,8 +60,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Videos
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - Operate TV like a computer mouse.
 
-#### Sites
+#### Other
 * [openlgtv.org.ru](http://openlgtv.org.ru) - A non-commercial project for legal reverse engineering and research on LG Television firmware. Seems a bit outdated but contains a lot of information.
+* [Identification of LG TV models 2011-2017](http://en.tab-tv.com/?page_id=7111) - How to get screen size, matrix type, year of development, series and ohter parameters from LG TV model name.
 
 ### Android TV
 #### Official resources
