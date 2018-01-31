@@ -13,8 +13,8 @@
   * [Android TV](#android-tv)
   * [Apple tvOS](#apple-tvos)
   * [Chromecast](#chromecast)
-* [Cross-platform frameworks](#cross-platform-frameworks)
-* [Communication protocols](#communication-protocols)
+* [Cross-platform tools](#cross-platform-tools)
+* [Remote control protocols](#remote-control-protocols)
 * [Misc](#misc)
 * [Community](#community)
 
@@ -78,13 +78,14 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [Google Cast SDK](https://developers.google.com/cast/) - Official Google Cast SDK documentation and tutorials.
 * [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/) - List of vendors supporting built-in Chromecast and advantages over traditional TV remote controller.
 
-## Cross-platform frameworks
+## Cross-platform tools
 * [react-tv](https://github.com/raphamorim/react-tv) - React development for TV: renderer for low memory applications and Packager for WebOS, Tizen, Orsay.
 * [TOAST](http://developer.samsung.com/tv/develop/extension-libraries/toast/) - Samsung open-source framework for multi-platform TV apps developemnt.
 * [Enyo](http://enyojs.com) - LG framework for development apps for all major platforms, from phones and tablets to PCs and TVs.
 * [Smartbox](https://github.com/immosmart/smartbox) - Smart TV universal library for Samsung, LG, Philips, SmartTV Aliance, STB Mag app development.
+* [Mautilus Smart TV SDK](https://github.com/mautilus/sdk) - A platform-agnostic framework for developing TV Apps. Supports Samsung, LG, Philips, Sony, Panasonic and VESTEL Smart TVs. 
 
-## Communication protocols
+## Remote control protocols
 * [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) - Industry-wide standard for sharing data over a home network. Depending on the DLNA-compatible devices you own, you might be able to stream films from your laptop to your TV, play an MP3 stored on your phone over your hi-fi system, or print a photo from your tablet on your home printer.
 * [DIAL](http://www.dial-multiscreen.org/) - Developed by Netflix and Google, this protocol alows client devices (like smartphone, tablet, or computer) to discover apps on server devices (like a smart TV or streaming box) and launch content on them.
 * [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) - Standard enabling devices to easily connect with each other without requiring a wireless access point.
