@@ -102,7 +102,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [Reddit](https://www.reddit.com/r/smarttv)
 
 ## Contribute
-Feel free to share your experience and contribute useful extension resources by creating [new issue](issues/new) or [pull request](compare).
+Feel free to share your experience and contribute useful extension resources by creating [new issue](https://github.com/vitalets/awesome-smart-tv/issues) or [pull request](https://github.com/vitalets/awesome-smart-tv/pulls).
 Please read the [contribution guidelines](CONTRIBUTING.md) first. Thanks!
 
 ## License
