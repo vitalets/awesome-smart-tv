@@ -12,8 +12,8 @@
   * [LG webOS](#lg-webos)
   * [Android TV](#android-tv)
   * [Apple tvOS](#apple-tvos)
-  * [Chromecast](#chromecast)
-* [Cross-platform tools](#cross-platform-tools)
+  * [Google Chromecast](#google-chromecast)
+* [Cross-platform frameworks](#cross-platform-frameworks)
 * [Remote control protocols](#remote-control-protocols)
 * [Misc](#misc)
 * [Community](#community)
@@ -75,17 +75,19 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Official resources
 * [tvOS Developers Site](https://developer.apple.com/tvos/) - SDK, documentation and tutorials for developing tvOS apps.
 
-### Chromecast
+### Google Chromecast
 #### Official resources
 * [Google Cast SDK](https://developers.google.com/cast/) - Official Google Cast SDK documentation and tutorials.
 * [TVs with Chromecast built-in](https://www.google.com/chromecast/built-in/tv/) - List of vendors supporting built-in Chromecast and advantages over traditional TV remote controller.
 
-## Cross-platform tools
+## Cross-platform frameworks
 * [react-tv](https://github.com/raphamorim/react-tv) - React development for TV: renderer for low memory applications and Packager for WebOS, Tizen, Orsay.
 * [TOAST](http://developer.samsung.com/tv/develop/extension-libraries/toast/) - Samsung open-source framework for multi-platform TV apps developemnt.
 * [Enyo](http://enyojs.com) - LG framework for development apps for all major platforms, from phones and tablets to PCs and TVs.
 * [Smartbox](https://github.com/immosmart/smartbox) - Smart TV universal library for Samsung, LG, Philips, SmartTV Aliance, STB Mag app development.
-* [Mautilus Smart TV SDK](https://github.com/mautilus/sdk) - A platform-agnostic framework for developing TV Apps. Supports Samsung, LG, Philips, Sony, Panasonic and VESTEL Smart TVs. 
+* [Mautilus Smart TV SDK](https://github.com/mautilus/sdk) - A platform-agnostic framework for developing TV Apps. Supports Samsung, LG, Philips, Sony, Panasonic and VESTEL Smart TVs.
+* [BBC TAL](https://bbc.github.io/tal/) - An open source library for building applications for Smart TV developed by BBC engineers.
+* [PureQML TV](https://github.com/pureqml/qmlcore-tv) - A declarative front-end framework for web-based SmartTV/STB platforms. Has experimental support of Android TV.
 
 ## Remote control protocols
 * [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) - Industry-wide standard for sharing data over a home network. Depending on the DLNA-compatible devices you own, you might be able to stream films from your laptop to your TV, play an MP3 stored on your phone over your hi-fi system, or print a photo from your tablet on your home printer.
