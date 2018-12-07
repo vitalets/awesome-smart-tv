@@ -1,0 +1,132 @@
+0101010101001010102010101010100101010
+Uncoosk@gmail.com
+Uncoosk@msn.com
+tk2thekrew@yahoo.com
+therealcurlsport@gmail.con
+juanalopez77@icloud.com
+Smallbfinance@gmail.com
+01010101001010101020101010010101010
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 2 oscarg933/go-samsung-exlink
+forked from mgoff/go-samsung-exlink
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+A Go library for controlling Samsung TVs through the EX-Link serial port included on most models.
+ 28 commits
+ 1 branch
+ 1 release
+ 1 contributor
+ MIT
+ Go 100.0%
+ Pull request   Compare This branch is 10 commits ahead of mgoff:master.
+@oscarg933
+oscarg933 Create Samsung.smarthub
+Latest commit 66f3efe  9 hours ago
+Type	Name	Latest commit message	Commit time
+.github/ISSUE_TEMPLATE	Update issue templates	10 hours ago
+Adafruit_CircuitPython_HCSR04-master 2 2 2 2.zip	Add files via upload	10 hours ago
+Adafruit_CircuitPython_HCSR04-master 2 3 2.zip	Add files via upload	10 hours ago
+Adafruit_CircuitPython_HCSR04-master 4 2 2.zip	Add files via upload	10 hours ago
+AutomatedLab-develop 2 2.zip	Add files via upload	10 hours ago
+BinarySerializer-master.zip	Add files via upload	10 hours ago
+CloudFusion-master.zip	Add files via upload	9 hours ago
+Dio.Ros-master.zip	Add files via upload	10 hours ago
+IMG_20181206_072350.jpg	Add files via upload	10 hours ago
+LICENSE	Update license	2 years ago
+PyPlanet-master.zip	Add files via upload	10 hours ago
+README.md	Update documentation	2 years ago
+Safebox	Create Safebox	10 hours ago
+Samsung.smarthub	Create Samsung.smarthub	9 hours ago
+Screenshot_2018-11-28-11-34-21.png	Add files via upload	9 hours ago
+_config.yml	Set theme jekyll-theme-time-machine	10 hours ago
+ai_challenge_2018_mrc-master.zip	Add files via upload	9 hours ago
+api nodes ui ai secrets - Bing video Dios.Ros.pdf	Add files via upload	10 hours ago
+exlink.go	Formatting updates after running 'go fmt'	2 years ago
+exlink_test.go	Update documentation and formatting	2 years ago
+jquery.sugarsync-master.zip	Add files via upload	9 hours ago
+node-md5-master.zip	Add files via upload	10 hours ago
+pandora-master.zip	Add files via upload	9 hours ago
+py (2).oxps.zip	Add files via upload	10 hours ago
+rails-master.zip	Add files via upload	10 hours ago
+ README.md
+go-samsung-exlink
+A Go library for controlling Samsung TVs through the EX-Link serial port included on most models.
+
+Samsung EX-Link
+The EX-Link connection is 3.5mm stereo jack identical to a standard headphone connector. In order to connect your TV to a computer, you'll need a 3.5mm stereo jack to serial adapter along with a serial to USB adapter such as the Keyspan USA-19H or IOGEAR GUC232A. These models have been tested successfully to control 2011 and 2015 model year Samsung TVs from both a Raspberry Pi 3 and a MacBook Pro.
+
+The EX-Link protocol consists of byte codes sent through the serial connection that can control the majority of Samsung TV features, settings, and remote control buttons. See exlink.go for the list of codes that this library supports.
+
+Usage
+Call exlink.Open with the path to your serial port such as /dev/ttyUSB0 or /dev/tty.KeySerial1. Then call various functions to control the TV. Sleeps have been included between function calls in the example below to allow you to see the results of the commands through your TV's on-screen display.
+
+	package main
+
+	import (
+		"github.com/mgoff/go-samsung-exlink"
+		"log"
+		"time"
+	)
+
+	func main() {
+
+		// open the connection to the EX-Link device
+		device, err := exlink.Open("/dev/ttyUSB0")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		// close the connection at the end
+		defer device.Close()
+
+		// turn on the EX-Link device
+		err = device.PowerOn()
+		if err != nil {
+			log.Fatal(err)
+		}
+		time.Sleep(10 * time.Second)
+
+		// switch to HDMI 1
+		err = device.SourceHDMI1()
+		if err != nil {
+			log.Fatal(err)
+		}
+		time.Sleep(10 * time.Second)
+
+		// switch to HDMI 2
+		err = device.SourceHDMI2()
+		if err != nil {
+			log.Fatal(err)
+		}
+		time.Sleep(10 * time.Second)
+
+		// turn off the EX-Link device
+		err = device.PowerOff()
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
+0101010010101010010101010020101010101010101001
