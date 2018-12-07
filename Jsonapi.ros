@@ -1,0 +1,110 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 138 oscarg933/SimulatorStatusMagic
+forked from shinydevelopment/SimulatorStatusMagic
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Clean up your status bar for taking screenshots on the iOS simulator. https://github.com/oscarg933/Automate…
+ 177 commits
+ 1 branch
+ 22 releases
+ 23 contributors
+ MIT
+ Objective-C 98.8%	 Ruby 1.2%
+ Pull request   Compare This branch is 4 commits ahead of shinydevelopment:master.
+@oscarg933
+oscarg933 Add files via upload
+Latest commit d273905  18 hours ago
+Type	Name	Latest commit message	Commit time
+.github/ISSUE_TEMPLATE	Update issue templates	18 hours ago
+Artwork	Added a 1024 icon to stop Xcode complaining that it didn’t have one!	a year ago
+SDStatusBarManager	Merge pull request shinydevelopment#74 from mouhassan/feature_ipad_ios12	2 months ago
+SimulatorStatusMagic.xcodeproj	Xcode scheme updates	16 days ago
+SimulatorStatusMagic	Added a 1024 icon to stop Xcode complaining that it didn’t have one!	a year ago
+SimulatorStatusMagiciOS	Updates for Xcode 7.3 and clean up.	3 years ago
+.gitignore	Added DS_Store to the gitignore.	4 years ago
+Code Coverage Done Right | 'Codecov.io.patch'.pdf	Add files via upload	18 hours ago
+Embed a map in your website - Bing Maps Dios.Dos protege 513 n San Rafael ave.patch.pdf	Add files via upload	18 hours ago
+HISTORY | Watch Full Episodes of Your Favorite Shows dio.ros.pdf	Add files via upload	18 hours ago
+HackatonSinaloa2018-master.zip	Add files via upload	18 hours ago
+INSTALLATION.md	Update installation instructions for users who are installing without…	7 months ago
+LICENSE	Update LICENSE	4 years ago
+README.md	Updated README.	2 months ago
+SimulatorStatusMagic.podspec	Updated version number for CocoaPods.	2 months ago
+_config.yml	Set theme jekyll-theme-hacker	18 hours ago
+angular-seed-master.zip	Add files via upload	18 hours ago
+api nodes ui ai secrets - Bing video Dios.Ros.pdf	Add files via upload	18 hours ago
+iCloudDocumentSync-master.zip	Add files via upload	18 hours ago
+json.ros.veneno.iot.md.pdf	Add files via upload	18 hours ago
+loophole.travis Mexico and U.S Join USAMex.patch.pdf	Add files via upload	18 hours ago
+ README.md
+boom Important Note on iOS 12 Compatibility boom
+The latest version is mostly working with iOS 12 thanks to @cysp's kind pull request, however the new date status bar functionality on the iPad is not yet supported. It is being discussed in #68 and #72, and of course pull requests with support for this are very welcome.
+
+Simulator Status Magic
+Modify the iOS Simulator so that it has a perfect status bar, then run your app and take perfect screenshots every time. The modifications made are designed to match the images you see on the Apple site and are as follows:
+
+9:41 AM is displayed for the time.
+The battery is full and shows 100%.
+On iPhone: The carrier text is removed, 5 bars of cellular signal and full WiFi bars are displayed.
+On iPad: The carrier text is set to "iPad" and full WiFi bars are displayed.
+How do I use it?
+Clone this repository.
+Open SimulatorStatusMagic.xcodeproj with Xcode 6 (or above).
+Run the app target SimulatorStatusMagic (not SimulatorStatusMagiciOS) on whichever simulator type you would like to modify (it works with every device).
+Once the app launches, press the only button on the screen :)
+That's it, you're done! Now just run your app and take screenshots.
+How do I remove the customisations?
+Run the app again and click "Restore Default Status Bar". Resetting the iOS Simulator using the normal menu option also works.
+
+I have a script to take my screenshots, can I automate this?
+Yes! SimulatorStatusMagic is available via CocoaPods, Carthage and as a standalone source release. Installation instructions are available for each method.
+
+It is recommended to only include SDStatusBarManager in your debug configuration so that the code is never included in release builds. Then, when you want to apply a perfect status bar, call [[SDStatusBarManager sharedInstance] enableOverrides]. To restore the standard status bar, call [[SDStatusBarManager sharedInstance] disableOverrides].
+
+What about automation of the sample app?
+If you'd prefer to automate the app itself to automatically enable or disable the overrides, this can be done with environment variables.
+
+Run with:
+
+SIMULATOR_STATUS_MAGIC_OVERRIDES = enable
+or
+
+SIMULATOR_STATUS_MAGIC_OVERRIDES = disable
+The overrides will be automatically enabled or disabled on launch.
+
+Does this work on device?
+No. The status bar server is blocked on devices. However, macOS includes the facility to include a perfect status bar when recording your device screen with QuickTime (Read more).
+
+How does this work?
+The best idea is to check the source code which should get you started with how it works :)
+
+Contributing
+We'd love contributions and even have some suggestions for things that might need working on:
+
+Found a bug? If you report it with a pull request attached then you get a gold star :)
+Non-English language support. We'd love it to work with more languages. Now works with every language!
+However, the scope of this project is intentionally limited. We're not planning to add options to this to allow ultimate customisation of the status bar. It's intended to do just one job really well, change the status bar to match Apple's marketing materials.
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
