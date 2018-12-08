@@ -1,0 +1,6 @@
+git clone -n https://github.com/Microsoft/sql-server-samples
+cd sql-server-samples
+git config core.sparsecheckout true
+echo samples/features/*| out-file -append -encoding ascii .git/info/sparse-checkout
+echo samples/demos/*| out-file -append -encoding ascii .git/info/sparse-checkout
+git checkout
