@@ -1,0 +1,235 @@
+	LIRC is hosted at SourceForge. You can browse the repository or get a copy of the current source tree using git.
+
+Get the sources:
+    git clone git://git.code.sf.net/p/lirc/git lirc
+                
+Subsequent updates:
+    git pull
+                
+Compile:
+    cd lirc
+    ./autogen.sh
+    ./configure
+    make
+                
+You need updated versions of libtool, automake and autoconf to build the necessary files. Old versions might not work. 
+Up to version 0.8.7 LIRC was using CVS. The LIRC CVS repository is not maintained anymore.
+	
+Important: The infomation found here is obsolete. The LIRC CVS repository is not updated anymore. The current source repository is maintained in the Git repository.
+
+LIRC CVS is hosted at SourceForge. You can get a copy of the current CVS tree using anonymous CVS login. First log in to the cvs server (press <enter> for password):
+    cvs -d:pserver:anonymous@lirc.cvs.sourceforge.net:/cvsroot/lirc login
+                
+Get the sources:
+    cvs -z8 -d:pserver:anonymous@lirc.cvs.sourceforge.net:/cvsroot/lirc co lirc
+                
+After initial checkout, you can change into this directory and execute cvs commands without the -d option. For example:
+    cvs update
+                
+Compile:
+    cd lirc
+    ./autogen.sh
+    ./setup.sh
+    make
+                
+You can ignore the complaints about missing files. You need at least libtool-1.5.22, automake-1.9.6 and autoconf-2.61 to build the necessary files. Older versions might not work. But you might also experience problems with more recent versions of the tools. Please don't report problems that occur with versions other than listed here.
+
+You can also get single files from CVS via http.
+Index of /libtool/
+../
+libtool-1.0-1.1.diff.gz                            09-Mar-1998 08:00              161950
+libtool-1.0-1.1.tar.xdp.gz                         09-Mar-1998 08:00               81731
+libtool-1.0.tar.gz                                 10-Jul-1997 07:00              231157
+libtool-1.1-1.2.diff.gz                            20-Mar-1998 08:00                9015
+libtool-1.1-1.2.tar.xdp.gz                         20-Mar-1998 08:00                4600
+libtool-1.1.tar.gz                                 09-Mar-1998 08:00              276921
+libtool-1.2-1.3.diff.gz                            29-Apr-1999 16:53              288382
+libtool-1.2-1.3.tar.xdp.gz                         29-Apr-1999 16:55              254203
+libtool-1.2.tar.gz                                 20-Mar-1998 08:00              277249
+libtool-1.3-1.3.2.diff.gz                          27-May-1999 03:58               62891
+libtool-1.3-1.3.2.tar.xdp.gz                       27-May-1999 04:57               23461
+libtool-1.3.2-1.3.3.diff.gz                        06-Jul-1999 19:17               14448
+libtool-1.3.2-1.3.3.tar.xdp.gz                     06-Jul-1999 19:17               12538
+libtool-1.3.2.tar.gz                               25-May-1999 23:33              531825
+libtool-1.3.3-1.3.4.diff.gz                        16-Dec-1999 13:40               25671
+libtool-1.3.3-1.3.4.tar.xdp.gz                     16-Dec-1999 13:40               18291
+libtool-1.3.3.tar.gz                               06-Jul-1999 19:20              531866
+libtool-1.3.4-1.3.5.diff.gz                        28-May-2000 11:47               15681
+libtool-1.3.4-1.3.5.tar.xdp.gz                     28-May-2000 11:47                9742
+libtool-1.3.4.tar.gz                               16-Dec-1999 13:41              535519
+libtool-1.3.5-1.4.diff.gz                          26-Apr-2001 10:30              248606
+libtool-1.3.5-1.4.tar.xdp.gz                       26-Apr-2001 10:30              259088
+libtool-1.3.5.tar.gz                               28-May-2000 11:47              538884
+libtool-1.3.tar.gz                                 29-Apr-1999 16:50              528262
+libtool-1.4-1.4.1.diff.gz                          03-Sep-2001 02:09               49294
+libtool-1.4-1.4.1.tar.xdp.gz                       03-Sep-2001 02:10               74742
+libtool-1.4.1-1.4.2.diff.gz                        11-Sep-2001 03:44               15219
+libtool-1.4.1-1.4.2.tar.xdp.gz                     11-Sep-2001 03:45               29217
+libtool-1.4.1.tar.gz                               03-Sep-2001 02:08             1129676
+libtool-1.4.2-1.4.3.diff                           23-Oct-2002 22:24              193986
+libtool-1.4.2-1.4.3.tar.xdp.gz                     27-Nov-2003 14:21               34564
+libtool-1.4.2-1.4.3.tar.xdp.gz.sig                 27-Nov-2003 14:21                  65
+libtool-1.4.2.tar.gz                               11-Sep-2001 03:51             1184578
+libtool-1.4.3-1.5.diff.gz                          27-Nov-2003 14:21              272971
+libtool-1.4.3-1.5.diff.gz.sig                      27-Nov-2003 14:21                  65
+libtool-1.4.3-1.5.tar.xdp.gz                       27-Nov-2003 14:47             1692062
+libtool-1.4.3-1.5.tar.xdp.gz.sig                   27-Nov-2003 14:21                  65
+libtool-1.4.3.tar.gz                               27-Nov-2003 14:48             1164463
+libtool-1.4.3.tar.gz.sig                           27-Nov-2003 14:21                  65
+libtool-1.4.tar.gz                                 26-Apr-2001 10:30             1096928
+libtool-1.5-1.5.2.diff.gz                          25-Jan-2004 13:11               44431
+libtool-1.5-1.5.2.diff.gz.sig                      25-Jan-2004 13:12                  65
+libtool-1.5-1.5.2.xdelta                           25-Jan-2004 13:13             2641361
+libtool-1.5-1.5.2.xdelta.sig                       25-Jan-2004 13:13                  65
+libtool-1.5.10-1.5.12.diff.gz                      05-Feb-2005 16:39              131486
+libtool-1.5.10-1.5.12.diff.gz.sig                  05-Feb-2005 16:39                  65
+libtool-1.5.10-1.5.12.xdelta                       05-Feb-2005 16:39               46757
+libtool-1.5.10-1.5.12.xdelta.sig                   05-Feb-2005 16:40                  65
+libtool-1.5.10.tar.gz                              19-Sep-2004 13:59             2699923
+libtool-1.5.10.tar.gz.sig                          19-Sep-2004 13:59                  65
+libtool-1.5.12-1.5.14.diff.gz                      12-Feb-2005 13:44                6492
+libtool-1.5.12-1.5.14.diff.gz.sig                  12-Feb-2005 13:44                  65
+libtool-1.5.12-1.5.14.xdelta                       12-Feb-2005 13:44                8227
+libtool-1.5.12-1.5.14.xdelta.sig                   12-Feb-2005 13:44                  65
+libtool-1.5.12.tar.gz                              05-Feb-2005 16:38             2731822
+libtool-1.5.12.tar.gz.sig                          05-Feb-2005 16:38                  65
+libtool-1.5.14-1.5.16.diff.gz                      25-Apr-2005 18:32              272435
+libtool-1.5.14-1.5.16.diff.gz.sig                  25-Apr-2005 18:32                  65
+libtool-1.5.14-1.5.16.xdelta                       25-Apr-2005 18:32               36930
+libtool-1.5.14-1.5.16.xdelta.sig                   25-Apr-2005 18:32                  65
+libtool-1.5.14.tar.gz                              12-Feb-2005 13:43             2732031
+libtool-1.5.14.tar.gz.sig                          12-Feb-2005 13:44                  65
+libtool-1.5.16-1.5.18.diff.gz                      16-May-2005 10:19               38553
+libtool-1.5.16-1.5.18.diff.gz.sig                  16-May-2005 10:19                  65
+libtool-1.5.16-1.5.18.xdelta                       16-May-2005 10:19               14145
+libtool-1.5.16-1.5.18.xdelta.sig                   16-May-2005 10:19                  65
+libtool-1.5.16.tar.gz                              25-Apr-2005 18:35             2774942
+libtool-1.5.16.tar.gz.sig                          25-Apr-2005 18:37                  65
+libtool-1.5.18-1.5.20.diff.gz                      31-Aug-2005 19:05              147926
+libtool-1.5.18-1.5.20.diff.gz.sig                  31-Aug-2005 19:05                  65
+libtool-1.5.18-1.5.20.xdelta                       31-Aug-2005 19:05               26124
+libtool-1.5.18-1.5.20.xdelta.sig                   31-Aug-2005 19:05                  65
+libtool-1.5.18.tar.gz                              16-May-2005 10:19             2780846
+libtool-1.5.18.tar.gz.sig                          16-May-2005 10:19                  65
+libtool-1.5.2-1.5.4.diff.gz                        03-Apr-2004 16:56              194702
+libtool-1.5.2-1.5.4.diff.gz.sig                    03-Apr-2004 16:56                  65
+libtool-1.5.2-1.5.4.xdelta                         03-Apr-2004 16:57             2643491
+libtool-1.5.2-1.5.4.xdelta.sig                     03-Apr-2004 16:58                  65
+libtool-1.5.2.tar.gz                               25-Jan-2004 13:11             2653072
+libtool-1.5.2.tar.gz.sig                           25-Jan-2004 13:11                  65
+libtool-1.5.20-1.5.22.diff.gz                      18-Dec-2005 22:27             1263027
+libtool-1.5.20-1.5.22.diff.gz.sig                  18-Dec-2005 22:28                  65
+libtool-1.5.20-1.5.22.xdelta                       18-Dec-2005 22:28              271759
+libtool-1.5.20-1.5.22.xdelta.sig                   18-Dec-2005 22:28                  65
+libtool-1.5.20.tar.gz                              31-Aug-2005 19:07             2789331
+libtool-1.5.20.tar.gz.sig                          31-Aug-2005 19:05                  65
+libtool-1.5.22-1.5.24.diff.gz                      26-Jun-2007 12:58              786595
+libtool-1.5.22-1.5.24.diff.gz.sig                  26-Jun-2007 12:58                  65
+libtool-1.5.22-1.5.24.xdelta                       26-Jun-2007 12:58              139456
+libtool-1.5.22-1.5.24.xdelta.sig                   26-Jun-2007 12:58                  65
+libtool-1.5.22-1.5.24.xdelta.txt                   26-Jun-2007 12:58              139456
+libtool-1.5.22-1.5.24.xdelta.txt.sig               26-Jun-2007 12:58                  65
+libtool-1.5.22.tar.gz                              18-Dec-2005 22:26             2921483
+libtool-1.5.22.tar.gz.sig                          18-Dec-2005 22:24                  65
+libtool-1.5.24-1.5.26.diff.gz                      01-Feb-2008 17:12              228820
+libtool-1.5.24-1.5.26.diff.gz.sig                  01-Feb-2008 17:12                 152
+libtool-1.5.24-1.5.26.xdelta                       01-Feb-2008 17:13               45811
+libtool-1.5.24-1.5.26.xdelta.sig                   01-Feb-2008 17:13                 152
+libtool-1.5.24.tar.gz                              26-Jun-2007 13:02             2919557
+libtool-1.5.24.tar.gz.sig                          26-Jun-2007 13:02                  65
+libtool-1.5.26.tar.gz                              01-Feb-2008 17:12             2961939
+libtool-1.5.26.tar.gz.sig                          01-Feb-2008 17:12                 152
+libtool-1.5.4-1.5.6.diff.gz                        11-Apr-2004 08:29                3737
+libtool-1.5.4-1.5.6.diff.gz.sig                    11-Apr-2004 08:29                  65
+libtool-1.5.4-1.5.6.xdelta                         11-Apr-2004 08:30             2471205
+libtool-1.5.4-1.5.6.xdelta.sig                     11-Apr-2004 08:30                  65
+libtool-1.5.4.tar.gz                               03-Apr-2004 16:56             2665199
+libtool-1.5.4.tar.gz.sig                           03-Apr-2004 16:56                  65
+libtool-1.5.6-1.5.8.diff.gz                        07-Aug-2004 13:56              186034
+libtool-1.5.6-1.5.8.diff.gz.sig                    07-Aug-2004 13:56                  65
+libtool-1.5.6-1.5.8.xdelta                         07-Aug-2004 13:56               49932
+libtool-1.5.6-1.5.8.xdelta.sig                     07-Aug-2004 13:56                  65
+libtool-1.5.6.tar.gz                               11-Apr-2004 08:28             2665434
+libtool-1.5.6.tar.gz.sig                           11-Apr-2004 08:28                  65
+libtool-1.5.8-1.5.10.diff.gz                       19-Sep-2004 14:00               90302
+libtool-1.5.8-1.5.10.diff.gz.sig                   19-Sep-2004 14:00                  65
+libtool-1.5.8-1.5.10.xdelta                        19-Sep-2004 13:59               24416
+libtool-1.5.8-1.5.10.xdelta.sig                    19-Sep-2004 13:59                  65
+libtool-1.5.8.tar.gz                               07-Aug-2004 13:57             2682583
+libtool-1.5.8.tar.gz.sig                           07-Aug-2004 13:57                  65
+libtool-1.5.tar.gz                                 27-Nov-2003 14:48             2816075
+libtool-1.5.tar.gz.sig                             27-Nov-2003 14:21                  65
+libtool-2.2-2.2.2.diff.gz                          02-Apr-2008 01:03              107358
+libtool-2.2-2.2.2.diff.gz.sig                      02-Apr-2008 01:03                  65
+libtool-2.2.10-2.4.diff.gz                         22-Sep-2010 15:06              670361
+libtool-2.2.10-2.4.diff.gz.sig                     22-Sep-2010 15:06                  72
+libtool-2.2.10.tar.gz                              09-Jun-2010 15:00             2439628
+libtool-2.2.10.tar.gz.sig                          09-Jun-2010 15:00                  72
+libtool-2.2.10.tar.lzma                            09-Jun-2010 15:00              788637
+libtool-2.2.10.tar.lzma.sig                        09-Jun-2010 15:00                  72
+libtool-2.2.2-2.2.4.diff.gz                        04-May-2008 20:55              743737
+libtool-2.2.2-2.2.4.diff.gz.sig                    04-May-2008 20:55                  65
+libtool-2.2.2.tar.bz2                              02-Apr-2008 01:03             1447913
+libtool-2.2.2.tar.bz2.sig                          02-Apr-2008 01:03                  65
+libtool-2.2.2.tar.gz                               02-Apr-2008 01:04             2223210
+libtool-2.2.2.tar.gz.sig                           02-Apr-2008 01:04                  65
+libtool-2.2.2.tar.lzma                             02-Apr-2008 01:05              703807
+libtool-2.2.2.tar.lzma.sig                         02-Apr-2008 01:05                  65
+libtool-2.2.4-2.2.6a.diff.gz                       08-Sep-2008 05:56              612372
+libtool-2.2.4-2.2.6a.diff.gz.sig                   08-Sep-2008 05:56                  65
+libtool-2.2.4.tar.bz2                              04-May-2008 20:56             1919208
+libtool-2.2.4.tar.bz2.sig                          04-May-2008 20:56                  65
+libtool-2.2.4.tar.gz                               04-May-2008 20:57             2840967
+libtool-2.2.4.tar.gz.sig                           04-May-2008 20:57                  65
+libtool-2.2.4.tar.lzma                             04-May-2008 20:58              732598
+libtool-2.2.4.tar.lzma.sig                         04-May-2008 20:58                  64
+libtool-2.2.6a-2.2.6b.diff.gz                      16-Nov-2009 15:03             1404102
+libtool-2.2.6a-2.2.6b.diff.gz.sig                  16-Nov-2009 15:03                 315
+libtool-2.2.6a-2.2.8.diff.gz                       04-Jun-2010 20:30             2450966
+libtool-2.2.6a-2.2.8.diff.gz.sig                   04-Jun-2010 20:29                  72
+libtool-2.2.6a.tar.gz                              08-Sep-2008 05:24             2870524
+libtool-2.2.6a.tar.gz.sig                          08-Sep-2008 05:24                  65
+libtool-2.2.6a.tar.lzma                            08-Sep-2008 05:52              733923
+libtool-2.2.6a.tar.lzma.sig                        08-Sep-2008 05:51                  65
+libtool-2.2.6b.tar.gz                              16-Nov-2009 15:05             2347317
+libtool-2.2.6b.tar.gz.sig                          16-Nov-2009 15:05                 315
+libtool-2.2.6b.tar.lzma                            16-Nov-2009 15:06              739089
+libtool-2.2.6b.tar.lzma.sig                        16-Nov-2009 15:06                 315
+libtool-2.2.8-2.2.10.diff.gz                       09-Jun-2010 15:00               22040
+libtool-2.2.8-2.2.10.diff.gz.sig                   09-Jun-2010 15:00                  72
+libtool-2.2.8.tar.gz                               04-Jun-2010 19:26             2435122
+libtool-2.2.8.tar.gz.sig                           04-Jun-2010 19:25                  72
+libtool-2.2.8.tar.lzma                             04-Jun-2010 20:02              787141
+libtool-2.2.8.tar.lzma.sig                         04-Jun-2010 20:02                  72
+libtool-2.2.tar.bz2                                02-Mar-2008 02:25             1446665
+libtool-2.2.tar.bz2.sig                            02-Mar-2008 02:25                  65
+libtool-2.2.tar.gz                                 02-Mar-2008 02:27             2216275
+libtool-2.2.tar.gz.sig                             02-Mar-2008 02:27                  65
+libtool-2.2.tar.lzma                               02-Mar-2008 02:28              698599
+libtool-2.2.tar.lzma.sig                           02-Mar-2008 02:28                  65
+libtool-2.4-2.4.2.diff.gz                          18-Oct-2011 08:22              362192
+libtool-2.4-2.4.2.diff.gz.sig                      18-Oct-2011 08:22                  72
+libtool-2.4.2.tar.gz                               18-Oct-2011 08:21             2632347
+libtool-2.4.2.tar.gz.sig                           18-Oct-2011 08:21                  72
+libtool-2.4.2.tar.xz                               18-Oct-2011 08:22              868760
+libtool-2.4.2.tar.xz.sig                           18-Oct-2011 08:22                  72
+libtool-2.4.3.tar.gz                               27-Oct-2014 20:09             1735901
+libtool-2.4.3.tar.gz.sig                           27-Oct-2014 20:09                 181
+libtool-2.4.3.tar.xz                               27-Oct-2014 20:11              947692
+libtool-2.4.3.tar.xz.sig                           27-Oct-2014 20:11                 181
+libtool-2.4.4.tar.gz                               29-Nov-2014 18:25             1770684
+libtool-2.4.4.tar.gz.sig                           29-Nov-2014 18:25                 181
+libtool-2.4.4.tar.xz                               29-Nov-2014 18:26              957476
+libtool-2.4.4.tar.xz.sig                           29-Nov-2014 18:26                 181
+libtool-2.4.5.tar.gz                               19-Jan-2015 17:02             1802567
+libtool-2.4.5.tar.gz.sig                           19-Jan-2015 17:02                 181
+libtool-2.4.5.tar.xz                               19-Jan-2015 17:02              971620
+libtool-2.4.5.tar.xz.sig                           19-Jan-2015 17:02                 181
+libtool-2.4.6.tar.gz                               15-Feb-2015 20:31             1806697
+libtool-2.4.6.tar.gz.sig                           15-Feb-2015 20:31                 181
+libtool-2.4.6.tar.xz                               16-Feb-2015 10:16              973080
+libtool-2.4.6.tar.xz.sig                           16-Feb-2015 10:16                 181
+libtool-2.4.tar.gz                                 22-Sep-2010 15:08             2580417
+libtool-2.4.tar.gz.sig                             22-Sep-2010 15:08                  72
+libtool-2.4.tar.xz                                 22-Sep-2010 15:09              852248
+libtool-2.4.tar.xz.sig                             22-Sep-2010 15:09                  72
