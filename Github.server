@@ -1,0 +1,277 @@
+
+Stack Overflow
+Log In Sign Up
+By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service.
+
+Automatically Deploy From GitHub To Server On Push
+Ask Question
+up vote
+25
+down vote
+favorite
+13
+We have a VPS on linode, and code hosted on gitHub. How do we setup so when we push to gitHub, it also pushes automatically to our linode server. We are using PHP on the linode server.
+
+Thanks.
+
+git deployment github
+shareimprove this question
+asked Sep 5 '11 at 2:55
+
+Justin
+13.1k51137219
+Might get more help posting this on serverfault.com – sashang Sep 5 '11 at 2:57
+add a comment
+
+6 Answers
+active oldest votes
+up vote
+21
+down vote
+accepted
+You probably want to use GitHub's post-receive hooks.
+
+In summary, GitHub will POST to a supplied URL when someone pushes to the repo. Just write a short PHP script to run on your linode VPS and pull from GitHub when it receives said POST.
+
+shareimprove this answer
+answered Sep 5 '11 at 3:01
+
+Kristian Glass
+28k63261
+This sounds great, but how do you "pull from github" from PHP? – Brian FitzGerald Jun 17 '14 at 13:54
+1
+I assume some library exists, but in the worst case, more use of exec than ideal – Kristian Glass Jun 17 '14 at 17:04 
+Thanks for the extra insight Kristian! – Brian FitzGerald Jun 17 '14 at 21:06
+If I am not mistaken, in order for you to "pull from github" from yuor server, you need to install git on your server. I hope I am right – CodeGodie Sep 9 '14 at 18:31
+@DiegoCamacho You are correct (or, some kind of git client at least) – Kristian Glass Sep 10 '14 at 8:56 
+add a comment
+up vote
+13
+down vote
+I wrote a small Github-Auto-Deploy server in python, that does exactly what you want.
+
+Enter your domain to a new post-receive service hook on Github
+Match local repository paths with repository urls in the config file
+The server will receive requests from github and run git pull in local repository path
+It also runs a shell script for deployment afterwards if you provide one
+shareimprove this answer
+edited Jun 18 '12 at 20:56
+answered Jun 18 '12 at 20:26
+
+Karl
+13114
+2
+your lib inspired me to start on an implementation of my own. github.com/danneu/captain-githook. good stuff, dude. – danneu Sep 13 '13 at 18:57
+#sigh if it was in PHP it would be in context with the question... it may as well be in turbo pascal – Dawesi Apr 6 at 10:49
+add a comment
+up vote
+3
+down vote
+I ended up creating my own rudimentary deployment tool (much like Karl but in PHP) which would automatically pull down new updates from the repo - https://github.com/jesalg/SlimJim - Basically it listens to the github post-receive-hook and uses a proxy to trigger an update script.
+
+shareimprove this answer
+answered Sep 13 '12 at 1:43
+
+jesal
+5,07033747
+add a comment
+up vote
+2
+down vote
+Maybe i'm out of context but i prefer to manually choose where to push from my command line eg: git push linode
+
+To do this i create a repository container in my linode server and created a post-receive hook that checkouts my folder to the last pushed commit
+
+Create a git repo container 
+mkdir /var/repo && cd /var/repo
+git --bare init
+
+Create the post-receive hook in /var/repo/hooks/ 
+touch post-receive
+nano post-receive
+chmod +x post-receive
+
+post-receive content #!/bin/sh
+git --work-tree=/var/www/ --git-dir=/var/repo checkout -f
+
+On your local repository
+git remote add linode root@<linode ip|domain>:/var/repo
+git push linode
+
+your code is now deployed
+
+shareimprove this answer
+answered Aug 6 '15 at 12:51
+
+user2131283
+166116
+Interesting. Thank you for that. I would follow Linode's recommandation not to use @root user. This requires looser permissions on the git repo directory and on /var/www. I found relevant infos on how to do that here: stackoverflow.com/a/6448326/2112538 – François Romain May 11 '17 at 20:57
+add a comment
+up vote
+1
+down vote
+You may refer to this tutorial:
+Automatically Updating Your Website Using GitHub's Service Hooks:
+
+In short it explains the following steps:
+
+Create a php file in .git folder on your server with the following contents.
+
+<?php `git pull`;?>
+Setup your server for the SSH keys to exist. Something like:
+
+key. cat ~/.ssh/id_rsa.pub
+Setup the service hook on GitHub . Enter WebHook URL:
+
+http://your.domain.com/path/to/yourfile.php
+When all is set. The file is going deploy all the work on your server each time you push to GitHub.
+
+shareimprove this answer
+answered May 29 '16 at 17:49
+
+Chetabahana
+3,32111844
+add a comment
+up vote
+1
+down vote
+Using any kind of webhook involves deploying a listener for that hook, and then triggering, from your listener server host, the action.
+
+You can take a shortcut now (oct. 2018) with GitHub Actions (Oct. 2018).
+
+GitHub Actions allows you to connect and share containers to run your software development workflow. Easily build, package, release, update, and deploy your project in any language—on GitHub or any external system—without having to run code yourself.
+
+See Actions: pushing is only one of the possibilities behind Actions!
+
+Workflows can be triggered by GitHub platform events (i.e. push, issue, release) and can run a sequence of serial or parallel actions in response. Combine and configure actions for the services you know and love built and maintained by the community.
+
+shareimprove this answer
+answered Oct 17 at 22:16
+
+VonC
+824k28425933124
+add a comment
+Your Answer
+
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+
+Email
+Required, but never shown
+
+
+Post Your Answer
+By clicking "Post Your Answer", you acknowledge that you have read our updated terms of service, privacy policy and cookie policy, and that your continued use of the website is subject to these policies.
+Not the answer you're looking for? Browse other questions tagged git deployment github or ask your own question.
+asked
+
+7 years, 3 months ago
+
+viewed
+
+24,762 times
+
+active
+
+1 month ago
+
+BLOG
+Welcome Wagon: Community and Comments on Stack Overflow
+Linked
+0
+Deploying Rails directly from GitHub
+489
+Git Push Error: insufficient permission for adding an object to repository database
+1
+Automatically synchronizing my local directories from GitHub
+1
+Can I use Git for that?
+1
+Hosting Latest Github Push (Master Branch)
+1
+Laravel 5.2 Web app not showing changes after committing with github desktop
+Related
+6020
+How to remove local (untracked) files from the current Git working tree?
+1485
+How can I remove a commit on GitHub?
+5562
+How do I force “git pull” to overwrite local files?
+2790
+How do you create a remote Git branch?
+3248
+Undo a Git merge that hasn't been pushed yet
+3797
+How do I push a new local branch to a remote Git repository and track it too?
+3032
+How can I determine the URL that a local Git repository was originally cloned from?
+1699
+How do you push a tag to a remote repository using Git?
+2963
+How do I update a GitHub forked repository?
+629
+Cannot push to GitHub - keeps saying need merge
+Hot Network Questions
+Why is <= slower than < in V8?
+I'm scheduled to graduate next week but my professor has gone MIA due to a death in the family... what can I do?
+Unable to raise a case to Salesforce support
+Is intraspecies genetic incompatibility possible?
+Can ATC handle a flight as emergency although the pilots have not declared an emergency?
+How do I choose Eevee's evolution?
+Simplest way to determine return type of function
+Why aren't Republicans more focused on mobilizing a movement towards 'dethroning' Trump?
+How do I tweak this crouching rule to balance it?
+Could the moon crash into the earth if we colonised it and increased its mass?
+P Pr Pre Pref Prefi Prefix Prefixe Prefixes
+Question about the move h5
+Falcon 9: engines stabilize spin
+Is a mushroom a plant for the purposes of Speak With Plants?
+Does any country have an official celebration for the annexation of foreign territory?
+What's wrong with my e-mail to potential PhD supervisors?
+How to protect printers from being hacked
+Why doesn't a braking car move backwards?
+"Dobby the house-elf's former owners"
+Three Visual Puzzles
+are quotients by equivalence relations "better" than surjections?
+I noticed that several already-existing poems used the same highly specific puns and phrases that I used. Is this unintentional plagiarism on my part?
+Photodiode almost no mV at analog port
+Outsourcing trivial authorless work
+ question feed
+STACK OVERFLOW
+Questions
+Jobs
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+Disable Responsiveness
+PRODUCTS
+Teams
+Talent
+Engagement
+Enterprise
+COMPANY
+About
+Press
+Work Here
+Legal
+Privacy Policy
+Contact Us
+STACK EXCHANGE
+NETWORK
+Technology
+Life / Arts
+Culture / Recreation
+Science
+Other
+Blog
+Facebook
+Twitter
+LinkedIn
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.12.7.32344
+
+ 
