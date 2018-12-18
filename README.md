@@ -76,6 +76,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 ### Apple tvOS
 #### Official resources
 * [tvOS Developers Site](https://developer.apple.com/tvos/) - SDK, documentation and tutorials for developing tvOS apps.
+* [TVML](https://developer.apple.com/documentation/tvml) -  Apple TV Markup Language for creating tvOS apps.
 
 ### Google Chromecast
 #### Official resources
