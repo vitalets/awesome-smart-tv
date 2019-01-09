@@ -38,7 +38,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [homebridge-samsung-tizen](https://github.com/tavicu/homebridge-samsung-tizen) - A plugin for [Homebridge](https://github.com/nfarina/homebridge) that allows you to control your Samsung Tizen TV with HomeKit and Siri (JavaScript).
 * [samsung-remote-models-2014-and-newer](https://github.com/tdudek/samsung-remote-models-2014-and-newer) - Encrypted communication with the internal web service of Samsung TV models 2014+.
 * [SmartCrypto](https://github.com/sectroyer/SmartCrypto) - SmartView2 encrypted handshake API implementation in C/Python.
-
+* [samsung-messagebox](https://github.com/shantanugoel/samsung-messagebox) - Python script to show notifications on Samsung TVs.
 
 #### Other
 * [Identification of Samsung TV models 2008-2017](http://en.tab-tv.com/?page_id=7123) - How to get screen size, matrix type, year of development, series and ohter parameters from Samsung TV model name.
