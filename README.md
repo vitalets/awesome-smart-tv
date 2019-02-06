@@ -58,6 +58,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [ares-webos-sdk](https://github.com/stevenvong/ares-webos-sdk) - webOS [CLI](http://webostv.developer.lge.com/sdk/using-webos-tv-cli/) as separate NPM module (JavaScript).
 * [pylgtv](https://github.com/TheRealLink/pylgtv) - Library to control webOS based LG Tv devices (Python).
 * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line tool for webOS remote control of LG TVs (Python).
+* [homebridge-webos-tv](https://github.com/merdok/homebridge-webos-tv) - A plugin for [Homebridge](https://github.com/nfarina/homebridge) which allows you to control your webOS TV.
 
 #### Articles
 * [LG webOS communication protocol](https://mym.hackpad.com/ep/pad/static/rLlshKkzdNj) - Unofficial but detailed description of communication endpoints of webOS TV.
