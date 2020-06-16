@@ -109,6 +109,10 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [smart-tv-app-dev-guidelines](https://github.com/ruiposse/smart-tv-app-dev-guidelines) - A Smart TV App Development examples, tutorials, best-practices and documentation. Last updated on 2015.
 * [awesome-smarttv](https://github.com/linuxenko/awesome-smarttv) - Another list of Smart TV resources. Discovered after this one was already done :roll_eyes:.
 * [lrud](https://github.com/stuart-williams/lrud) - Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
+* [js-spatial-navigation](https://github.com/luke-chang/js-spatial-navigation) - A javascript-based implementation of Spatial Navigation.
+* [react-js-spatial-navigation](https://github.com/dead/react-js-spatial-navigation) - A wrapper of js-spatial-navigation to react components.
+* [react-key-navigation](https://github.com/dead/react-key-navigation) - Spatial Navigation components for React. Similar to the ["Focus Management"](http://bbc.github.io/tal/widgets/focus-management.html) of the [BBC TAL](https://bbc.github.io/tal/).
+* [react-spatial-navigation](https://github.com/NoriginMedia/react-spatial-navigation) - HOC-based Spatial Navigation (key navigation) solution for React.
 
 ## Community
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
