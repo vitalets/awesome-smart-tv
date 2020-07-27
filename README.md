@@ -78,6 +78,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Official resources
 * [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Documentation, tutorials and best practises for building Android TV apps.
 
+#### Articles
+* [Android TV Uygulaması Geliştirmek](https://medium.com/@halilozel1903/android-tv-uygulaması-geliştirmek-293ab43c274d) - An article about developing apps for Android TV.
+
 ### Apple tvOS
 #### Official resources
 * [tvOS Developers Site](https://developer.apple.com/tvos/) - SDK, documentation and tutorials for developing tvOS apps.
