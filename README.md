@@ -78,6 +78,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Official resources
 * [Android TV Developers site](https://developer.android.com/training/tv/start/start.html) - Documentation, tutorials and best practises for building Android TV apps.
 
+#### Articles
+* [How to develop Android TV App?](https://medium.com/@halilozel1903/how-to-develop-android-tv-app-5e251f3aa56b) - An article about developing apps for Android TV.
+
 ### Apple tvOS
 #### Official resources
 * [tvOS Developers Site](https://developer.apple.com/tvos/) - SDK, documentation and tutorials for developing tvOS apps.
@@ -111,11 +114,14 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [react-key-navigation](https://github.com/dead/react-key-navigation) - Spatial Navigation components for React. Similar to the ["Focus Management"](http://bbc.github.io/tal/widgets/focus-management.html) of the [BBC TAL](https://bbc.github.io/tal/).
 * [react-spatial-navigation](https://github.com/NoriginMedia/react-spatial-navigation) - HOC-based Spatial Navigation (key navigation) solution for React.
 
+## Testing
+* [Suitest](https://suite.st) - Test automation solution for Smart TVs, gaming consoles, streaming sticks etc.
+
 ## Misc
 * [LIRC](http://lirc.org) - A package that allows you to decode and send infra-red signals of many (but not all) commonly used remote controls.
 * [smart-tv-app-dev-guidelines](https://github.com/ruiposse/smart-tv-app-dev-guidelines) - A Smart TV App Development examples, tutorials, best-practices and documentation. Last updated on 2015.
 * [awesome-smarttv](https://github.com/linuxenko/awesome-smarttv) - Another list of Smart TV resources. Discovered after this one was already done :roll_eyes:.
-* [Suitest](https://suite.st) - Test automation solution for Smart TVs, gaming consoles, streaming sticks etc.
+* [docker-tizen-webos-sdk](https://github.com/vitalets/docker-tizen-webos-sdk) - Docker image with Samsung Tizen CLI and LG webOS CLI. Allows to develop, build, launch and debug Smart TV apps without installing Tizen Studio and webOS SDK.
 
 ## Community
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
