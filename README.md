@@ -43,7 +43,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [samsung-tv-control](https://github.com/Toxblh/samsung-tv-control) - Library for remote control Samsung TV in your Node.js
 
 #### Other
-* [Identification of Samsung TV models 2008-2017](http://en.tab-tv.com/?page_id=7123) - How to get screen size, matrix type, year of development, series and ohter parameters from Samsung TV model name.
+* [Identification of Samsung TV models 2008-2017](http://en.tab-tv.com/?page_id=7123) - How to get screen size, matrix type, year of development, series and other parameters from Samsung TV model name.
 * [Tizen Studio development references](https://github.com/claromes/tizenstudio) - Documents focused on web apps for Smart TVs e Professional Monitors, based in personal researches.
 
 ### LG webOS
