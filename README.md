@@ -63,6 +63,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote) - Command line tool for webOS remote control of LG TVs (Python).
 * [homebridge-webos-tv](https://github.com/merdok/homebridge-webos-tv) - A plugin for [Homebridge](https://github.com/nfarina/homebridge) which allows you to control your webOS TV.
 * [PyWebOSTV](https://github.com/supersaiyanmode/PyWebOSTV) - A generic & entensible WebOS 3.0 Client Library (Python2, Python3).
+* [go-webos](github.com/kaperys/go-webos) - A small Go library for interaction with webOS TVs (golang).
 
 #### Videos
 * [LG Magic Motion Remote - Point, Click, and Control](https://youtu.be/yxu0G7jM_us) - Operate TV like a computer mouse.
