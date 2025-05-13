@@ -47,6 +47,8 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Other
 * [Identification of Samsung TV models 2008-2017](http://en.tab-tv.com/?page_id=7123) - How to get screen size, matrix type, year of development, series and other parameters from Samsung TV model name.
 * [Tizen Studio development references](https://github.com/claromes/tizenstudio) - Documents focused on web apps for Smart TVs e Professional Monitors, based in personal researches.
+* [TizenBrew] (https://github.com/reisxd/TizenBrew) - A way to experience modded websites and you can install newer apps without fighting with Tizen Studio
+* [TizenTube] (https://github.com/reisxd/TizenTube) - A TizenBrew module that enhances your favourite streaming websites viewing experience by removing ads and adding support for Sponsorblock.
 
 ### LG webOS
 #### Official resources
