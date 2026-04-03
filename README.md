@@ -15,6 +15,7 @@
   * [Google Chromecast](#google-chromecast)
 * [Cross-platform frameworks](#cross-platform-frameworks)
 * [Remote control protocols](#remote-control-protocols)
+* [Cross-platform tools](#cross-platform-tools)
 * [Navigation libraries](#navigation-libraries)
 * [Testing](#testing)
 * [Misc](#misc)
@@ -108,6 +109,9 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 * [DIAL](http://www.dial-multiscreen.org/) - Developed by Netflix and Google, this protocol alows client devices (like smartphone, tablet, or computer) to discover apps on server devices (like a smart TV or streaming box) and launch content on them.
 * [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) - Standard enabling devices to easily connect with each other without requiring a wireless access point.
 * [Miracast](https://en.wikipedia.org/wiki/Miracast) - Standard for wireless connections from devices (such as laptops, tablets, or smartphones) to displays (such as TVs, monitors or projectors). Works over Wi-Fi Direct.
+
+## Cross-platform tools
+* [smartest-tv](https://github.com/Hybirdss/smartest-tv) - CLI and MCP server for playing Netflix, YouTube, and Spotify on any smart TV by name. Deep links content across LG, Samsung, Android TV, and Roku — say "Frieren S2E8" and it plays (Python).
 
 ## Navigation libraries
 * [lrud](https://github.com/stuart-williams/lrud) - Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
