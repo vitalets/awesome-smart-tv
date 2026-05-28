@@ -112,6 +112,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 
 ## Cross-platform tools
 * [smartest-tv](https://github.com/Hybirdss/smartest-tv) - CLI and MCP server for playing Netflix, YouTube, and Spotify on any smart TV by name. Deep links content across LG, Samsung, Android TV, and Roku — say "Frieren S2E8" and it plays (Python).
+* [Fluxcast](https://github.com/IlyaP358/fluxcast) - A user-friendly Python utility for mirroring Linux desktops to Smart TVs via Miracast and DLNA, supporting GNOME, KDE, and wlroots/Wayland.
 
 ## Navigation libraries
 * [lrud](https://github.com/stuart-williams/lrud) - Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
