@@ -76,6 +76,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 #### Other
 * [openlgtv.org.ru](http://openlgtv.org.ru) - A non-commercial project for legal reverse engineering and research on LG Television firmware. Seems a bit outdated but contains a lot of information.
 * [Identification of LG TV models 2011-2017](http://en.tab-tv.com/?page_id=7111) - How to get screen size, matrix type, year of development, series and ohter parameters from LG TV model name.
+* [BiliTV](https://github.com/asdf17128/bili-webos) - Open-source Bilibili (哔哩哔哩) client for LG webOS TVs; React + Shaka Player (DASH), a from-scratch D-pad focus system, danmaku, bangumi & live. A real-world reference app.
 
 ### Android TV
 #### Official resources
