@@ -85,6 +85,7 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 
 #### Articles
 * [How to develop Android TV App?](https://medium.com/@halilozel1903/how-to-develop-android-tv-app-5e251f3aa56b) - An article about developing apps for Android TV.
+* [Android TV: Getting Started](https://www.raywenderlich.com/20747024-android-tv-getting-started) - Learn how to create your first Android TV app!
 
 #### Tools
 - [TV Box Tools](https://github.com/smartago/tvboxtools) - Launcher manager and ADB toolbox for Android TV and Google TV boxes: set the HOME app, kiosk, speed-up, display, remote, console, MCP server.
