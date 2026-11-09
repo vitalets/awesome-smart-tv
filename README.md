@@ -20,6 +20,7 @@
 * [Testing](#testing)
 * [Misc](#misc)
 * [Community](#community)
+* [Other Lists](#other-lists)
 
 ## Platforms
 Below are the most popular platforms for Smart TV. The full list is [here](https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middleware_software).
@@ -133,12 +134,16 @@ Below are the most popular platforms for Smart TV. The full list is [here](https
 
 ## Misc
 * [LIRC](http://lirc.org) - A package that allows you to decode and send infra-red signals of many (but not all) commonly used remote controls.
-* [awesome-smarttv](https://github.com/linuxenko/awesome-smarttv) - Another list of Smart TV resources. Discovered after this one was already done :roll_eyes:.
 * [docker-tizen-webos-sdk](https://github.com/vitalets/docker-tizen-webos-sdk) - Docker image with Samsung Tizen CLI and LG webOS CLI. Allows to develop, build, launch and debug Smart TV apps without installing Tizen Studio and webOS SDK.
 
 ## Community
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/smart-tv)
 * [Reddit](https://www.reddit.com/r/smarttv)
+
+## Other Lists
+
+* [awesome-webos](https://github.com/tolgakurtuluss/awesome-webos) - A curated list of resources for webOS.
+* [awesome-smarttv](https://github.com/linuxenko/awesome-smarttv) - Another list of Smart TV resources. Discovered after this one was already done :roll_eyes:.
 
 ## Contribute
 Feel free to share your experience and contribute useful extension resources by creating [new issue](https://github.com/vitalets/awesome-smart-tv/issues) or [pull request](https://github.com/vitalets/awesome-smart-tv/pulls).
