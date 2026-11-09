@@ -6,6 +6,8 @@
 
 [Smart TV](https://en.wikipedia.org/wiki/Smart_TV) is a growing platform of TVs having access to the internet and allowing to browse web-sites and install applications. It has own ecosystem with main players like Samsung, LG, Android TV and Apple TV. In this list you will find official and third-party resources for developing Smart TV apps and communicating with TV from remote devices.
 
+> ⚠️ **Before you install anything:** Most tools on this list are unofficial community projects. Check their documentation and compatibility with your TV, as they may affect security, stability, or manufacturer support. Use at your own risk.
+
 ## Contents
 * [Platforms](#platforms)
   * [Samsung Tizen](#samsung-tizen)
